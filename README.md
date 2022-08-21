@@ -5,6 +5,7 @@
 - Node
 - React
 - Bootstrap
+- TypeScript
 
 
 ## Getting Started
