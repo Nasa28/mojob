@@ -1,4 +1,3 @@
-import React, {FC} from 'react';
 import PropTypes from 'prop-types';
 import { pageSize } from './filterArray';
 import { SelectProps } from '../containers/interface';

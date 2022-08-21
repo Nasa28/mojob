@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  mojob-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mojob-app
+    ports:
+      - '3000:3000'
+    # stdin_open: true

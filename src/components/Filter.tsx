@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { CheckBoxProps, JobListing,PositionFunction } from '../containers/interface';
+import { CheckBoxProps, PositionFunction } from '../containers/interface';
 
 const Filter = (props: CheckBoxProps) => {
   const [position, setPosition] = useState([]);
